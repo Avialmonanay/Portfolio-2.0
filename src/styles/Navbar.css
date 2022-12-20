@@ -1,0 +1,29 @@
+html{
+    background-color:  rgb(211, 211, 211);
+}
+
+.customHeader{
+    margin-bottom: 0% !important;
+}
+nav{
+    background: linear-gradient(0.25turn, #22282b, #560e5f, #ac18c0) !important;
+}
+
+.nameHeader{
+    font-size: x-large !important
+}
+
+.customText{
+color: rgb(250, 75, 227) !important;
+}
+
+.customText:hover{
+    color:greenyellow !important
+}
+
+.collapser{
+    background-color: rgb(250, 75, 227) !important;
+}
+.collapser:hover{
+    background-color: greenyellow !important;
+}

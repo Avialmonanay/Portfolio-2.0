@@ -1,0 +1,18 @@
+.about{
+    background-color: rgb(211, 211, 211);
+    padding: 1%;
+    color: rgb(0, 0, 0)
+}
+
+.aboutCardHeader{
+ margin-top: 1%;
+ border-style: groove;
+ border-top: 0;   
+ border-left: 0;
+ border-right: 0;
+ border-color: rgb(107, 106, 106);
+}
+
+.aboutCard{
+    max-width: 45%;
+}
