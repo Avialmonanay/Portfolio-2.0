@@ -6,7 +6,7 @@ html{
     margin-bottom: 0% !important;
 }
 nav{
-    background: linear-gradient(0.25turn, #22282b, #560e5f, #ac18c0) !important;
+    background: linear-gradient(0.25turn, #22282b, rgb(97, 30, 88), rgb(160, 48, 145), rgb(250, 75, 227)) !important;
 }
 
 .nameHeader{

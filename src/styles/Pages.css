@@ -11,8 +11,43 @@
  border-left: 0;
  border-right: 0;
  border-color: rgb(107, 106, 106);
+ 
 }
 
 .aboutCard{
-    max-width: 45%;
+    max-width: 60%;
+    min-width: 60%;
+    max-height: 30%;
+    min-height: 30%;
+}
+
+.horz{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+
+.vert{
+display: flex;
+flex-direction: column;
+}
+
+.horzReverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.aboutProfileImage{
+    display:flex;
+    margin-left: 25%;
+}
+
+.aboutStarImage{
+    display:flex;
+    margin-right: 25%;
+}
+
+.leftMarg{
+    margin-left: 8%;
 }

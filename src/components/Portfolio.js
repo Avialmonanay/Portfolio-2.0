@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
     <div>
       <NavBar />
       <About />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
