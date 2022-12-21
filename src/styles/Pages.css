@@ -1,3 +1,5 @@
+/* start Aboutme Styling */
+
 .about{
     background-color: rgb(211, 211, 211);
     padding: 1%;
@@ -51,3 +53,57 @@ flex-direction: column;
 .leftMarg{
     margin-left: 8%;
 }
+
+/* End Aboutme Styling */
+
+/* start Contact Styling */
+.contactConatainer{
+    background-color: rgb(211, 211, 211);
+    padding:5%;
+    min-height: 85vh;
+}
+
+.contactHeader{
+display: flex;
+margin-bottom: 0px;
+max-width: 40%;
+min-height:300px ;
+border-top: 0px;
+border-left: 0px;
+border-style: groove;
+align-items: center;
+text-align: center;
+}
+
+.contactInfo{
+    display: flex;
+    margin-bottom: 0px;
+    min-width: 40vw;
+    min-height:300px ;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: groove;
+    align-items: flex-start;
+    padding: 3%;
+
+}
+
+.contactInfoIndividual{
+ min-height: 150px;
+}
+.contactHorz{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactLinkStyle{
+    text-decoration: none;
+    color: rgb(250, 75, 227);
+}
+
+.contactLinkStyle:hover{
+    text-decoration: none;
+    color: rgb(134, 52, 123);
+}
+/* End Contact Styling */

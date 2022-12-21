@@ -20,6 +20,6 @@
 }
 
 .imgSize:hover{
-    background-color: rgba(172, 255, 47, 0.158);
+    background-color: greenyellow;
     cursor: pointer;
 }
