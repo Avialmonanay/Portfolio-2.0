@@ -66,7 +66,7 @@ function Portfolio({ }) {
                 <div className='col-12 col-sm-12 col-lg-12 col-xxl-5 portfolioCardBorder'>
                     <figure className='portfoliofigure'>
                         <a href="https://github.com/Avialmonanay/Day-At-A-Glance"><img className='portfolioImages' src={Daag}></img></a>
-                        <figcaption className='portfolioFigcaption'> <h5>Day At A Glance</h5> This Social Network API was built to demonstrate my ability to use MongoDB to create an API based social networking application. This application allows you to add users, thoughts, reactions, and friends and make the appropriate changes to those datasets that you expect to come with a social network application.<br></br>  </figcaption>
+                        <figcaption className='portfolioFigcaption'> <h5>Day At A Glance</h5> An application built to allow users to quickly view and customize information relevant to them<br></br>  </figcaption>
                     </figure>
                 </div>
             </div>

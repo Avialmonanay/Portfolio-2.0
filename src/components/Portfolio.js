@@ -27,8 +27,8 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavBar />
-      <Portfolio />
+      <NavBar/>
+      <Resume/>
       <Footer/>
     </div>
   );
