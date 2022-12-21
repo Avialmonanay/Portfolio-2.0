@@ -1,7 +1,16 @@
+//renders the Contact Page
+
+//import react
 import React, { useState } from 'react';
+
+//import styles
 import '../../styles/Pages.css'
+
+//import helpers
 import { validateEmail } from '../../utils/contactFormChecker';
 
+
+//Form Function returns the contact HTML
 function Form() {
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
@@ -9,6 +18,7 @@ function Form() {
     const [errorMessage, setErrorMessage] = useState('')
 
 
+    //handles input changes and sets the state accordingly
     const handleInputChange = (e) => {
         // Getting the value and name of the input which triggered the change
         const { target } = e;
@@ -25,6 +35,7 @@ function Form() {
         }
     };
 
+    //handles form submit, Provides errors if missing values else will provide a message letting user know submit was successful
     const handleFormSubmit = (e) => {
         e.preventDefault();
         if (!validateEmail(email)) {
@@ -59,7 +70,7 @@ function Form() {
     };
 
 
-
+//contact page HTML
     return (
         <div className='contactConatainer'>
             <h2>Contact Me!</h2>

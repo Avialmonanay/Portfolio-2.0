@@ -1,9 +1,17 @@
+//Renders the Resume Page
+
+
+//import react
 import React from 'react';
+
+//import styles
 import '../../styles/Pages.css'
+
+//import the resume document for download
 import resume from '../../resume/Rexx Madsen - Resume.docx'
 
 
-
+//returns the Resume Page HTML
 function Resume({ }) {
     return (
         <div className='resumeContainer'>

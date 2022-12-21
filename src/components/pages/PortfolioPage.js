@@ -1,5 +1,12 @@
+//Renders the Portfolio Page
+
+//import React
 import React from 'react';
+
+//import styling
 import '../../styles/Pages.css'
+
+//import individual projects images
 import APIExample from '../../images/Portfolio/Example API.PNG'
 import Team from '../../images/Portfolio/My Team.PNG'
 import RandomPW from '../../images/Portfolio/RandomPassword.PNG'
@@ -8,11 +15,12 @@ import WeatherApp from '../../images/Portfolio/Weather App Data.PNG'
 import WorkScheduler from '../../images/Portfolio/Work-Day Schedulre - index.PNG'
 
 
-
+//import needed group images
 import NS from '../../images/Portfolio/Home Page - NS.PNG'
 import Daag from '../../images/Portfolio/DayAtAGlance.jpg'
 
 
+//returns all portfolio items. Seperates them from individual and group projects
 function Portfolio({ }) {
     return (
         <div className='portfolioContainer'>

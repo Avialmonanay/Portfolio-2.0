@@ -1,9 +1,17 @@
+//renders the about me page
+
+//import react
 import React from 'react';
+
+//import css styling
 import '../../styles/Pages.css'
+
+//import needed images
 import profileImage from '../../images/AboutMe/REXX_01.jpg'
 import stars from '../../images/AboutMe/Stars.JPG'
 
 
+//returns the About me HTML
 function About({ }) {
     return (
         <div className='about vert'>
