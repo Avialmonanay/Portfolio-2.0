@@ -52,7 +52,7 @@ This application was build as a single page application using React. A full list
 chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/1b799e74-4838-4611-y84d-180fd36393ba
 
 ## Deployed Portfolio 
-https://avialmonanay.github.io/Portfolio-2.0/
+https://avialmonanay.github.io/Rexx-Madsen-Portfolio/
 
 ## Questions
 Github Username:Avialmonanay
