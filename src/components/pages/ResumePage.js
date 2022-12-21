@@ -6,7 +6,7 @@ import '../../styles/Pages.css'
 function Resume({ }) {
     return (
         <div className='resumeContainer'>
-            <div className=''>
+            <div>
                 <h2 className='resumeHeader'>
                     Coding Languages
                 </h2>
@@ -42,7 +42,7 @@ function Resume({ }) {
                     </ul>
                 </div>
             </div>
-            <div className=''>
+            <div>
                 <h2 className='resumeHeader'>
                     Current Employment
                 </h2>
@@ -51,28 +51,28 @@ function Resume({ }) {
                     <h6>2022 - Current</h6>
                     <div className='resumeBody'>
                         <ul className='row main d-flex justify-content-evenly'>
-                            <li className=''>
+                            <li>
                                 Act as a single point of contact for my book of business in Support for high value clients and Workfront super users.
                             </li>
-                            <li className=''>
+                            <li>
                                 Meets and exceeds SLA criteria outlined with Adobes Ultimate Support Plan. 
                             </li>
-                            <li className=''>
+                            <li>
                                 Identify common themes across support tickets and devise action or training plans to grow clients knowledge.
                             </li>
-                            <li className=''>
+                            <li>
                                 As a single point of Contact I have to keep up to date with all changes with Adobe Workfront
                             </li>
-                            <li className=''>
+                            <li>
                                 Facilitate client cadence calls to review upcoming changes and identify how this will affect clients and their business needs
                             </li>
-                            <li className=''>
+                            <li>
                                 Identify root cause of issues and escalate issues to development when needed
                             </li>
-                            <li className=''>
+                            <li>
                                 Facilitate communication between the developers and client on ongoing issues the client is facing
                             </li>
-                            <li className=''>
+                            <li>
                                 Certifications: <ul>
                                     <li>Adobe ACE Core Developer</li>
                                 </ul>
@@ -81,7 +81,7 @@ function Resume({ }) {
                     </div>
                 </div>
             </div>
-            <div className=''>
+            <div>
                 <h2 className='resumeHeader'>
                     Previous Employment
                 </h2>
@@ -90,23 +90,23 @@ function Resume({ }) {
                     <h6>2021 - 2022</h6>
                     <div className='resumeBody'>
                         <ul className='row main d-flex justify-content-evenly'>
-                            <li className=''>
+                            <li>
                                 Held an average of 96% customer satisfaction with a 14.7% survey response rate while maintaining a top
                                 contributor for case intake
                             </li>
-                            <li className=''>
+                            <li>
                                 Troubleshot customer integrations between our product and outside applications while maintaining an ARD of
                                 4.3 days
                             </li>
-                            <li className=''>
+                            <li>
                                 Completed all training support certifications Core (including resource management), Integrations, and
                                 Documents
                             </li>
-                            <li className=''>
+                            <li>
                                 Created custom API calls for GET, POST, PUT, and DELETE methods to allow customers to quickly update the
                                 program utilizing the API call.
                             </li>
-                            <li className=''>
+                            <li>
                                 Support Accolades: <ul>
                                     <li>Hummingbird x2 – Awarded for being in the top 10 of customer nominated Hero award across all of
                                         Adobe’s support during a business quarter.</li>
@@ -123,17 +123,17 @@ function Resume({ }) {
                     <h6>2019 - 2021</h6>
                     <div className='resumeBody'>
                         <ul className='row main d-flex justify-content-evenly'>
-                            <li className=''>
+                            <li>
                             Acted as an escalation path for customer facing technicians
                             </li>
-                            <li className=''>
+                            <li>
                             Maintained technician knowledge on evolving programs
                             </li>
-                            <li className=''>
+                            <li>
                             Acted as an interpreter between the customer and our development team to ensure customer needs were properly
 met, state laws are followed, and to ensure realistic development goals were set.
                             </li>
-                            <li className=''>
+                            <li>
                             Trained new hires on process, casing, and documentation to ensure smooth onboarding process.
                             </li>
                         </ul>
@@ -144,26 +144,26 @@ met, state laws are followed, and to ensure realistic development goals were set
                     <h6>2017 - 2019</h6>
                     <div className='resumeBody'>
                         <ul className='row main d-flex justify-content-evenly'>
-                            <li className=''>
+                            <li>
                             Acted as a customer facing technician who builds strong client bonds
                             </li>
-                            <li className=''>
+                            <li>
                             Assisted in troubleshooting and identifying the cause of issues within a variety of programs
                             </li>
-                            <li className=''>
+                            <li>
                             Walked users through process and taught them how to fix issues in the future
                             </li>
-                            <li className=''>
+                            <li>
                             Worked with an internal wiki knowledge base, update information when necessary
                             </li>
-                            <li className=''>
+                            <li>
                             Managed multiple tickets at once while maintaining open lines of communication with team members and the
 customer to ensure a smooth repair process.
                             </li>
-                            <li className=''>
+                            <li>
                             Accurately identified what a customer is trying to explain to find the root of the issue.
                             </li>
-                            <li className=''>
+                            <li>
                             Utilized SQL database to find information on errors, or missing data.
                             </li>
                         </ul>

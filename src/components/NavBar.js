@@ -14,16 +14,34 @@ function NavBar({ currentPage, handlePageChange }) {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <a className="nav-link customText" aria-current="page" href="#">About</a>
+            <a 
+            href="About"
+            onClick={() => handlePageChange('About')}
+            className={currentPage === 'About' ? 'nav-link active' : 'nav-link customText'}>
+            About
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link customText" href="#">Portfolio</a>
+            <a  
+            href="#"
+            onClick={() => handlePageChange('Portfolio')}
+            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link customText'}>
+              Portfolio
+              </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link customText" href="#">Resume</a>
+            <a href="#"
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link customText'}>
+              Resume
+              </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link customText" href="#">Contact</a>
+            <a href="#"
+            onClick={() => handlePageChange('Contact')}
+            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link customText'}>
+              Contact
+              </a>
           </li>
         </ul>
       </div>
