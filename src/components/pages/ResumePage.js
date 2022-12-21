@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/Pages.css'
+import resume from '../../resume/Rexx Madsen - Resume.docx'
 
 
 
@@ -170,8 +171,11 @@ customer to ensure a smooth repair process.
                     </div>
                 </div>
             </div >
+            <div className='resumeDownload'>
+            <a href={resume}><button className='resumeDownloadButton' type="button">Download My Resume</button></a>
+            </div>
         </div>
-
+        
     )
 }
 export default Resume

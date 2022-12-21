@@ -3,7 +3,8 @@
 .about{
     background-color: rgb(211, 211, 211);
     padding: 1%;
-    color: rgb(0, 0, 0)
+    color: rgb(0, 0, 0);
+    min-height: 85vh
 }
 
 .aboutCardHeader{
@@ -62,51 +63,11 @@ flex-direction: column;
 .contactConatainer{
     background-color: rgb(211, 211, 211);
     padding:5%;
-    min-height: 85vh;
+    min-height: 86vh;
 }
 
-.contactHeader{
-display: flex;
-margin-bottom: 0px;
-max-width: 40%;
-min-height:300px ;
-border-top: 0px;
-border-left: 0px;
-border-style: groove;
-align-items: center;
-text-align: center;
-}
-
-.contactInfo{
-    display: flex;
-    margin-bottom: 0px;
-    min-width: 40vw;
-    min-height:300px ;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-style: groove;
-    align-items: flex-start;
-    padding: 3%;
-
-}
-
-.contactInfoIndividual{
- min-height: 150px;
-}
-.contactHorz{
-    display: flex;
-    flex-direction: row;
-}
-
-.contactLinkStyle{
-    text-decoration: none;
-    color: rgb(250, 75, 227);
-}
-
-.contactLinkStyle:hover{
-    text-decoration: none;
-    color: rgb(134, 52, 123);
+.contactForm{
+    max-width: 50%;
 }
 /* End Contact Styling */
 
@@ -204,5 +165,15 @@ text-align: center;
     border-color: rgb(250, 75, 227);
 }
 
+.resumeDownload{
+    display: flex;
+    justify-content: center;
+}
+
+.resumeDownloadButton:hover{
+    transform: translateY(-0.2rem);
+    transition: transform 150ms;
+    opacity: .5;
+}
 
 /* End Resume Styling */

@@ -10,16 +10,18 @@
 
 .margin{
     margin: 0%;
-    max-width: 10%;
-    margin: 1%;
+    max-width: 50px;
+    min-width: 50px;
+    margin: 15px;
 }
 
 .imgSize{
     max-height: 40px;
-    min-height: 20px;
+    min-height: 50px;
 }
 
 .imgSize:hover{
-    background-color: greenyellow;
-    cursor: pointer;
+    transform: translateY(-0.2rem);
+    transition: transform 150ms;
+    opacity: .5;
 }
