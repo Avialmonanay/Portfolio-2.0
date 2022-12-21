@@ -3,7 +3,7 @@ import '../../styles/Pages.css'
 
 function Portfolio({ }) {
     return (
-<div className='portfolioContainer'>
+<div className='portfolioContainer portfolioVert'>
     <h1 className='portfolioHeader'>Individual Projects</h1>
     <h1 className='portfolioHeader'>Group Projects</h1>
 </div>

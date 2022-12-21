@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/Pages.css'
-import profileImage from '../../images/REXX_01.jpg'
-import stars from '../../images/About Me Stars.JPG'
+import profileImage from '../../images/AboutMe/REXX_01.jpg'
+import stars from '../../images/AboutMe/Stars.JPG'
 
 
 function About({ }) {

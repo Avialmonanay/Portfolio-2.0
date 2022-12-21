@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/Footer.css'
-import gitHub from '../images/github.png'
-import linkedIn from '../images/link.png'
-import stackOF from '../images/stack.png'
+import gitHub from '../images/Footer/github.png'
+import linkedIn from '../images/Footer/link.png'
+import stackOF from '../images/Footer/stack.png'
 
 function Footer({ }) {
     return (
