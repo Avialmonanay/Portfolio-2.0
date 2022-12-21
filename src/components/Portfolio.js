@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import NavBar from './NavBar';
-import About from './pages/AboutMe';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import About from './pages/AboutMePage';
+import Portfolio from './pages/PortfolioPage';
+import Contact from './pages/ContactPage';
+import Resume from './pages/ResumePage';
 import Footer from './Footer'
 
 export default function PortfolioContainer() {
@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <NavBar />
-      <Contact />
+      <About />
       <Footer/>
     </div>
   );

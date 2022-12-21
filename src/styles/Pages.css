@@ -56,6 +56,8 @@ flex-direction: column;
 
 /* End Aboutme Styling */
 
+/* ------------------------------------ */
+
 /* start Contact Styling */
 .contactConatainer{
     background-color: rgb(211, 211, 211);
@@ -107,3 +109,28 @@ text-align: center;
     color: rgb(134, 52, 123);
 }
 /* End Contact Styling */
+
+/* ------------------------------------ */
+
+/* Start Portfolio Styling */
+.portfolioContainer{
+    padding:2%;
+    min-height: 85vh;
+    background-color: rgb(211, 211, 211)
+}
+
+.portfolioHeader{
+    margin: 1%;
+    border-style: groove;
+    border-top: 0px ;
+    border-left: 0px; 
+    border-right: 0px;
+    max-width: 23%;
+}
+
+.portfolioVert{
+
+}
+/* End Portfolio Styling */
+
+/* ------------------------------------ */
