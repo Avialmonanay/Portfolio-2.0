@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio-2.0/static/css/main.9ade8bf9.css",
+    "main.js": "/Portfolio-2.0/static/js/main.825ebdc0.js",
+    "static/media/DayAtAGlance.jpg": "/Portfolio-2.0/static/media/DayAtAGlance.5aabe9d50e8dd262586b.jpg",
+    "static/media/Home Page - NS.PNG": "/Portfolio-2.0/static/media/Home Page - NS.999283571ccc17c1de53.PNG",
+    "static/media/Weather App Data.PNG": "/Portfolio-2.0/static/media/Weather App Data.48edfa48ddae04d598e4.PNG",
+    "static/media/tech_blog Homepage.PNG": "/Portfolio-2.0/static/media/tech_blog Homepage.8372a83f7c7fcef5f4e1.PNG",
+    "static/media/REXX_01.jpg": "/Portfolio-2.0/static/media/REXX_01.eea4baa3056697329429.jpg",
+    "static/media/Example API.PNG": "/Portfolio-2.0/static/media/Example API.f00ea2e4e96cd05713d6.PNG",
+    "static/media/My Team.PNG": "/Portfolio-2.0/static/media/My Team.bd40bac471daf1be308f.PNG",
+    "static/media/Work-Day Schedulre - index.PNG": "/Portfolio-2.0/static/media/Work-Day Schedulre - index.42d84c0991dcf306b5c4.PNG",
+    "static/media/link.png": "/Portfolio-2.0/static/media/link.2951c73c52a0282b1eab.png",
+    "static/media/github.png": "/Portfolio-2.0/static/media/github.703f21f1445a84d849fe.png",
+    "static/media/RandomPassword.PNG": "/Portfolio-2.0/static/media/RandomPassword.11e42828dca696d5fcdc.PNG",
+    "static/media/Rexx Madsen - Resume.docx": "/Portfolio-2.0/static/media/Rexx Madsen - Resume.c623c4f4c001ede38b31.docx",
+    "static/media/Stars.JPG": "/Portfolio-2.0/static/media/Stars.5483a7bd9a0e4643f923.JPG",
+    "static/media/stack.png": "/Portfolio-2.0/static/media/stack.af3e3072838c2fd2b7be.png",
+    "index.html": "/Portfolio-2.0/index.html",
+    "main.9ade8bf9.css.map": "/Portfolio-2.0/static/css/main.9ade8bf9.css.map",
+    "main.825ebdc0.js.map": "/Portfolio-2.0/static/js/main.825ebdc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ade8bf9.css",
+    "static/js/main.825ebdc0.js"
+  ]
+}
