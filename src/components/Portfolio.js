@@ -1,11 +1,19 @@
+//renders Navbar, CurrentPage, and Footer
+
+//import React
 import React, { useState } from 'react';
+
+//import navBar and Footer
 import NavBar from './NavBar';
+import Footer from './Footer'
+
+//import pages
 import About from './pages/AboutMePage';
 import Portfolio from './pages/PortfolioPage';
 import Contact from './pages/ContactPage';
 import Resume from './pages/ResumePage';
-import Footer from './Footer'
 
+//returns Navbar, CurrentPage, and Footer HTML
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 

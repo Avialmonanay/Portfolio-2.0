@@ -1,7 +1,13 @@
+//renders the NavBar
+
+//import React
 import React from 'react';
+
+//import styling
 import '../styles/Navbar.css'
 
 
+//returns the navBar if the page the user is on (currentPage) will be highlighted green on the navbar else it will follow normal styling
 function NavBar({ currentPage, handlePageChange }) {
  return (
   <header className="customHeader">

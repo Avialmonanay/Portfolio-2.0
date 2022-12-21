@@ -1,9 +1,19 @@
+//Renders the Footer
+
+
+//import React
 import React from 'react'
+
+//import Styles
 import '../styles/Footer.css'
+
+//import all needed images
 import gitHub from '../images/Footer/github.png'
 import linkedIn from '../images/Footer/link.png'
 import stackOF from '../images/Footer/stack.png'
 
+
+//returns footer HTML
 function Footer({ }) {
     return (
         <div className='customFooter'>
