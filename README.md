@@ -49,7 +49,7 @@ This application was build as a single page application using React. A full list
 
 
 ## Video Demonstartion
-chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/1b799e74-4838-4611-y84d-180fd36393ba
+https://drive.google.com/file/d/1MVvzm1J5VFTK6kbH6vTX38L6e6y66tJU/view
 
 ## Deployed Portfolio 
 https://avialmonanay.github.io/Rexx-Madsen-Portfolio/
